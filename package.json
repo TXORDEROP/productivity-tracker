@@ -3,13 +3,24 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.26.3",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^6.3.1",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "ajv": "^6.12.6",
+    "ajv-keywords": "^3.5.2",
+    "babel-loader": "^9.2.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "react-scripts": "^5.0.1",
+    "web-vitals": "^2.1.4",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
